@@ -1,17 +1,150 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    font-family: 'Plus Jakarta sans'; 
+    --typography-base: 15px;
+    --spacing: 10px;
+    --border-radius: 20px;
+
+    --white: #FFFFFF;
+	--black:#181818;
+	--double-black: #000000;
+    --dark-grey: #181818;
 }
 
-.container {
+body {
+    background-color: var(--double-black);
+    color: var(--white);
+    background-size: 20px 20px;
+    background-image:
+      linear-gradient(to right, rgb(19, 19, 19) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(19, 19, 19) 1px, transparent 1px);
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--double-black);
+    padding: 10px 20px;
+    border-bottom: .5px solid var(--white);
+  }
+  
+  .brand {
+    font-size: 24px;
+    color: var(--white); 
+    text-decoration: none;
+  }
+  
+  .brand:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .nav {
+    background-color: transparent;
+
+    border: none;
+    color: var(--white);
+    padding: var(--spacing);
+    border-radius: calc(.5* var(--typography-base));
+    font-size: calc(1.5* var(--typography-base));
+    cursor: pointer;
+    margin-left: 20px; 
+  }
+  
+  .nav:hover {
+    background-color: var(--dark-grey);
+  }
+#industryFilter {
+    padding: var(--spacing);
+    font-size: calc(1.2* var(--typography-base));
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  #industryFilter option {
+    font-size: calc(1* var(--typography-base));
+    padding: var(--spacing);
+    font-size: 16px;
+    color: var(--dark-grey);
+  }
+  
+  #industryFilter:hover,
+  #industryFilter:focus {
+    border-color: #aaa;
+  }
+
+.CTA-buttons { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
+    margin-bottom: calc(3* var(--spacing));
+    
+}
+.brief {
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70vw;
+    max-width: 100%;
+    background-color: var(--dark-grey);
+    border-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.233);
+    border: .5px solid rgba(255, 255, 255, 0.233);
+    margin: calc(1.5* var(--spacing));
+}
+
+.industry{ 
+    font-size: calc(1.8* var(--typography-base));
+    font-weight: 500;
+    padding-top: calc(1.3* var(--spacing));
+    padding-bottom: calc(1.3* var(--spacing));
+    padding-left: calc(5* var(--spacing));
+    margin-bottom: calc(1.3* var(--spacing));
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.design-brief { 
+    font-size: calc(3* var(--typography-base));
+    font-weight: 400;
+    margin-top: calc(1.3* var(--spacing));
+    margin-bottom: calc(4* var(--spacing));
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
+    padding-top: 20px;
+}
+
+.title { 
+    font-size: calc(1.7* var(--typography-base));
+    font-weight: 400;
+    margin-top: calc(1.3* var(--spacing));
+    margin-bottom: calc(1.3* var(--spacing));
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
+}
+
+.deliverable { 
+    font-size: calc(1.7* var(--typography-base));
+    font-weight: 300;
+    margin-top: calc(2* var(--spacing));
+    margin-bottom: calc(3* var(--spacing));
+    padding-right:calc(4* var(--spacing));
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
+}
+
+.deadline { 
+    font-size: calc(1.2* var(--typography-base));
+    font-weight: 300;
+    margin-top: calc(1.3* var(--spacing));
+    margin-bottom: calc(3* var(--spacing));  
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
 }
 
 h1 {
@@ -19,9 +152,19 @@ h1 {
     margin-bottom: 20px;
 }
 
-button {
+
+.generate {
+    font-size: calc(1.5* var(--typography-base));
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.generate {
+    font-size: calc(1.5* var(--typography-base));
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -33,26 +176,29 @@ button:hover {
     background-color: #0056b3;
 }
 
-#promptDisplay {
-    margin-top: 20px;
+.instructions { 
+    max-width: 800px;
+    margin: 50px auto;
+    width: 30vw;
+    max-width: 100%;
+    background-color: var(--dark-grey);
+    border-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.233);
+    border: .5px solid rgba(255, 255, 255, 0.233);
+    margin: calc(1.5* var(--spacing));
+    padding: calc(1.5* var(--spacing));;
 }
 
-body {
-    font-family: Arial, sans-serif;
+.main-grid{ 
+display: flex ;
 }
 
-.timer-container {
-    text-align: center;
-    margin-top: 50px;
+h3{ 
+    font-size: calc(1.8* var(--typography-base));
 }
-
-#timer {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-input, button {
-    margin: 5px;
-    padding: 8px 15px;
-    font-size: 1rem;
+  
+.steps{ 
+    margin-top:calc(1.3* var(--spacing));
+    font-size: calc(1.3* var(--typography-base));
 }

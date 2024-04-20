@@ -4,370 +4,424 @@
         "title": "Quick Redesign of Office Chair Armrests",
         "design-brief": "Improve the design of office chair armrests for better ergonomics and comfort, focusing on quick adjustments and compatibility with existing chair models.",
         "deliverable": "Concept sketches, 3D models of armrest designs, user feedback survey results.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
       },
       {
         "industry": "Industrial Design",
         "title": "Rapid Prototyping of Sustainable Cosmetics Packaging",
         "design-brief": "Develop a prototype of sustainable packaging solutions for a cosmetics brand, emphasizing recyclability and eco-friendly materials for immediate testing and evaluation.",
         "deliverable": "Prototype samples, material research summary, initial environmental impact assessment.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
+        
       },
       {
         "industry": "Industrial Design",
         "title": "Conceptualization of Modular Furniture Modules",
         "design-brief": "Generate design concepts for modular furniture modules, exploring space-saving solutions and versatile configurations suitable for small apartments.",
         "deliverable": "Concept sketches, 3D renderings of furniture modules, initial assembly instructions.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
       },
       {
         "industry": "Industrial Design",
         "title": "Conceptual Outdoor Seating Designs for Parks",
         "design-brief": "Create conceptual designs for an industrial surveillance drone, focusing on key features such as camera placement, aerodynamics, and payload capacity.",
         "deliverable": "Drone design concepts, feasibility analysis report.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
       },
       {
         "industry": "Industrial Design",
         "title": "Quick Prototyping of Compact Kitchen Appliance Concepts",
         "design-brief": "Develop rapid prototypes of compact kitchen appliances for small spaces, focusing on basic functionality and space-saving designs for immediate usability testing.",
         "deliverable": "Design sketches, 3D renderings of seating concepts.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
       },
       {
         "industry": "Industrial Design",
         "title": "Initial Safety Gear Redesign Concepts for Construction Workers",
         "design-brief": "Generate initial design concepts for safety gear (helmet, vest, gloves) redesign, addressing comfort, protection, and usability considerations for construction workers.",
         "deliverable": "Appliance prototypes, user testing feedback",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#0047FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Brand Identity Development for a Tech Startup",
         "design-brief": "Create a cohesive brand identity for a new tech startup, including logo design, color palette, typography guidelines, and brand assets for digital and print media.",
         "deliverable": "Logo designs (3 options), color palette, typography guidelines, brand style guide.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Packaging Design for a Gourmet Food Product",
         "design-brief": "Design attractive and informative packaging for a gourmet food product, focusing on visual appeal, product information hierarchy, and shelf standout in retail environments.",
         "deliverable": "Packaging mockups (front and back), label design, product variations if applicable.",
-        "deadline": "5 days"
+        "deadline": "5 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Event Poster Design for a Music Festival",
         "design-brief": "Design an eye-catching and engaging poster for a music festival, incorporating relevant imagery, event details, and a cohesive visual theme that resonates with the target audience.",
         "deliverable": "Event poster design (digital file), social media graphics for promotion.",
-        "deadline": "4 days"
+        "deadline": "4 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Social Media Campaign Graphics for a Nonprofit Organization",
         "design-brief": "Develop compelling graphics for a social media campaign by a nonprofit organization, conveying key messages, calls to action, and engaging visuals to raise awareness and drive participation.",
         "deliverable": "Social media graphics (various sizes and formats), campaign concept presentation.",
-        "deadline": "6 days"
+        "deadline": "6 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Magazine Layout Design for a Lifestyle Publication",
         "design-brief": "Create a visually appealing and well-organized layout for a lifestyle magazine, balancing text and imagery, ensuring readability, and maintaining brand consistency throughout the publication.",
         "deliverable": "Magazine layout design (digital file), mockups of sample pages.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Website Redesign for an Online Retail Store",
         "design-brief": "Redesign the website interface for an online retail store, focusing on user experience, visual hierarchy, product showcasing, and navigation improvements to enhance conversion rates.",
         "deliverable": "Website redesign mockups (home page and key inner pages), user flow diagram.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Infographic Design for Data Visualization",
         "design-brief": "Design an infographic for data visualization, presenting complex information in a visually engaging and easy-to-understand format, suitable for digital and print distribution.",
         "deliverable": "Infographic design (digital file), editable source file (e.g., Illustrator or Photoshop).",
-        "deadline": "5 days"
+        "deadline": "5 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Book Cover Design for a Fiction Novel",
         "design-brief": "Create a captivating and marketable book cover design for a fiction novel, capturing the essence of the story, appealing to the target readership, and standing out on bookshelves and online platforms.",
         "deliverable": "Book cover design (front, spine, back), 3D mockup for marketing purposes.",
-        "deadline": "6 days"
+        "deadline": "6 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Branding Collateral for a Fitness Studio",
         "design-brief": "Develop branding collateral for a fitness studio, including business cards, brochures, and signage, maintaining brand consistency and reflecting the studio's energetic and health-focused ethos.",
         "deliverable": "Business card design, brochure layout, signage mockup.",
-        "deadline": "5 days"
+        "deadline": "5 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Graphic Design",
         "title": "Digital Ad Campaign Design for a Fashion Brand",
         "design-brief": "Design digital ad creatives (banners, social media ads, etc.) for a fashion brand's promotional campaign, highlighting seasonal collections, offers, and brand aesthetics to attract and engage customers online.",
         "deliverable": "Digital ad designs (various sizes and formats), ad campaign concept presentation.",
-        "deadline": "7 days"
+        "deadline": "7 days",
+        "color": "#8000FF"
       },
       {
         "industry": "Web Design",
         "title": "Corporate Website Redesign for a Technology Company",
         "design-brief": "Redesign the corporate website for a technology company, focusing on modern design trends, user experience improvements, and clear communication of services and products.",
         "deliverable": "Homepage redesign, key inner page templates, mobile-responsive design, style guide.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
-        "title": ": E-commerce Website Design for a Fashion Boutique",
+        "title": "E-commerce Website Design for a Fashion Boutique",
         "design-brief": "Create a visually appealing and user-friendly e-commerce website for a fashion boutique, including product catalog pages, shopping cart functionality, and secure checkout process.",
         "deliverable": "E-commerce website design mockups, product page templates, payment gateway integration.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Portfolio Website for a Freelance Photographer",
         "design-brief": "Design a portfolio website for a freelance photographer, showcasing their work in a visually compelling and organized manner, with emphasis on image galleries and contact information.",
         "deliverable": "Portfolio website design, image gallery templates, contact form integration.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Educational Platform Interface Design for Online Courses",
         "design-brief": "Design the user interface for an educational platform offering online courses, focusing on intuitive navigation, course catalog presentation, and interactive learning features.",
         "deliverable": "UI mockups for course dashboard, course listing pages, video player interface.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Real Estate Website Redesign for a Property Management Company",
         "design-brief": "Redesign the website for a property management company, emphasizing property listings, search filters, virtual tours, and lead generation forms for potential buyers and renters.",
         "deliverable": "Redesigned property listing pages, search functionality improvements, lead capture forms.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Blog Website Design for a Travel and Lifestyle Blogger",
         "design-brief": "Create a blog website for a travel and lifestyle blogger, featuring engaging blog post layouts, multimedia integration, social sharing capabilities, and email subscription options.",
         "deliverable": "Blog post layout designs, social media integration, email subscription form.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Restaurant Website Design with Online Ordering System",
         "design-brief": "Design a website for a restaurant with an integrated online ordering system, including menu display, reservation booking, customer reviews, and seamless online payments",
         "deliverable": "Restaurant website design, online ordering system interface, reservation form.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Landing Page Design for a Product Launch Campaign",
         "design-brief": "Create a high-converting landing page for a product launch campaign, focusing on compelling copywriting, persuasive call-to-action buttons, and visual elements that drive conversions.",
         "deliverable": "Landing page design, A/B testing variations, conversion tracking setup",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Nonprofit Organization Website Redesign for Donations and Awareness",
         "design-brief": "Redesign the website for a nonprofit organization, highlighting donation opportunities, mission statements, success stories, and volunteer engagement features.",
         "deliverable": "Redesigned homepage, donation page, volunteer signup form, impact report section.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "Web Design",
         "title": "Health and Wellness Platform Interface Design",
         "design-brief": "Design the user interface for a health and wellness platform, including features like appointment scheduling, health tracking tools, community forums, and resources library.",
         "deliverable": "UI mockups for dashboard, appointment booking flow, health tracker interface, community forum design.",
-        "deadline": null
+        "deadline": null,
+        "color": "#00A907"
       },
       {
         "industry": "App Design",
         "title": "Fitness Tracking App Redesign",
         "design-brief": "Redesign a fitness tracking app to enhance user experience, including intuitive workout logging, progress tracking, goal setting, and integration with wearable devices.",
         "deliverable": "App redesign mockups, user flow diagrams, interactive prototype.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Personal Finance Management App",
         "design-brief": "Design a personal finance management app with features for expense tracking, budgeting, bill reminders, financial goal setting, and visual analytics of spending habits.",
         "deliverable": "App interface designs, transaction categorization system, budgeting tool UI.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Social Networking App for Professionals",
         "design-brief": "Create a social networking app tailored for professionals, focusing on networking features, job opportunities, industry news, and personal branding tools.",
         "deliverable": "App UI design, profile customization options, news feed layout.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Food Delivery App with Personalized Recommendations",
         "design-brief": "Design a food delivery app that offers personalized recommendations based on user preferences, location-based deals, easy ordering process, and real-time delivery tracking.",
         "deliverable": "App interface mockups, restaurant search filters, order tracking UI.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Meditation and Mindfulness App",
         "design-brief": "Develop a meditation and mindfulness app with guided meditation sessions, relaxation techniques, mood tracking, progress insights, and personalized recommendations.",
         "deliverable": "App design for meditation sessions, mood tracker interface, progress dashboard.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Travel Planning App for Itinerary Management",
         "design-brief": "Create a travel planning app for itinerary management, including flight and hotel bookings, activity recommendations, offline maps, and collaboration features for group trips.",
         "deliverable": "App interface for trip planning, booking flow designs, map integration UI.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "App Design",
         "title": "Language Learning App with Interactive Lessons",
         "design-brief": "Design a language learning app with interactive lessons, vocabulary exercises, pronunciation practice, progress assessments, and social features for language exchange.",
         "deliverable": "App UI for lessons, gamification elements, progress tracking dashboard.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF6565"
       },
       {
         "industry": "Illustration",
         "title": "Children's Book Illustrations",
         "design-brief": "Create a series of colorful and engaging illustrations for a children's book, featuring characters, scenes, and backgrounds that align with the story's themes and target age group.",
         "deliverable": "Character sketches, storyboard, final illustrations for each page.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Editorial Illustrations for Magazine Articles",
         "design-brief": "Produce editorial illustrations for magazine articles covering topics such as science, technology, lifestyle, and current events, enhancing storytelling and visual appeal.",
         "deliverable": "Illustrations for multiple articles, in various styles as needed.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Infographic Illustrations for Data Visualization",
         "design-brief": "Design illustrative elements for infographics, presenting complex data and statistics in a visually appealing and easy-to-understand format for digital and print media.",
         "deliverable": "Infographic design components (icons, charts, diagrams), infographic layouts.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Concept Art for Video Game Characters and Environments",
         "design-brief": "Create concept art for video game characters, environments, props, and mood boards, capturing the game's theme, style, and narrative elements.",
         "deliverable": "Character designs, environment sketches, color palettes, mood boards.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Medical Illustrations for Educational Materials",
         "design-brief": "Produce medical illustrations for educational materials such as textbooks, online courses, and presentations, depicting anatomy, procedures, and medical concepts with accuracy and clarity.",
         "deliverable": "Medical diagrams, anatomical illustrations, procedure sequences.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Product Illustrations for Packaging and Marketing",
         "design-brief": "Design product illustrations for packaging labels, promotional materials, and marketing campaigns, showcasing product features, usage scenarios, and benefits.",
         "deliverable": "Product renderings, label designs, marketing collateral.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Storyboard Illustrations for Animation or Video Projects",
         "design-brief": "Create storyboard illustrations for animation, film, or video projects, visualizing scenes, camera angles, character movements, and narrative flow.",
         "deliverable": "Storyboard panels, animatic (if applicable), scene breakdown.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Botanical and Nature Illustrations",
         "design-brief": "Produce botanical and nature illustrations for botanical gardens, environmental organizations, educational materials, or decorative purposes, showcasing plant species, landscapes, and ecosystems.",
         "deliverable": "Botanical illustrations, landscape scenes, nature-themed patterns.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Fashion Illustrations for Apparel Design",
         "design-brief": "Design fashion illustrations for apparel design projects, showcasing clothing designs, fabric textures, fashion trends, and garment details.",
         "deliverable": "Fashion sketches, garment illustrations, mood boards.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF51A5"
       },
       {
         "industry": "Illustration",
         "title": "Historical and Cultural Illustrations",
         "design-brief": "Create illustrations depicting historical events, cultural traditions, landmarks, and heritage sites, suitable for educational publications, museum exhibits, or travel guides.",
         "deliverable": "Historical scenes, cultural symbols, landmark illustrations.",
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "The Digital Divide: Exploring the Influence of Social Media on Interpersonal Relationships",
         "design-brief": "Discuss the impact of social media on interpersonal relationships in the digital age, examining both positive and negative aspects.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Revolutionizing Education: The Role of Technology in Modern Learning",
         "design-brief": "Analyze the role of technology in education, exploring how digital tools and online learning platforms are changing traditional educational methods.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Climate Change Policies: Assessing Progress and Future Challenges",
         "design-brief": "Evaluate the effectiveness of climate change policies at the national and international levels, considering challenges, successes, and future strategies.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Mental Health in Media: Breaking Stigmas and Shaping Perceptions",
         "design-brief": "Examine the portrayal of mental health in contemporary media and its implications on public perception and stigma surrounding mental illnesses.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "The Ethics of Artificial Intelligence: Balancing Progress and Responsibility",
         "design-brief": "Discuss the ethical considerations of artificial intelligence (AI) and its potential impact on society, addressing issues of privacy, automation, and job displacement.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Embracing Diversity: Fostering Inclusivity in the Workplace",
         "design-brief": "Explore the concept of cultural diversity in the workplace, discussing strategies for promoting inclusivity, overcoming biases, and fostering collaboration.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Globalization: Opportunities, Challenges, and Implications",
         "design-brief": "Analyze the effects of globalization on economies, cultures, and societies, considering both opportunities and challenges in a globalized world.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Pursuing Sustainability: The Significance of Sustainable Development Goals",
         "design-brief": "Discuss the significance of sustainable development goals (SDGs) in addressing global environmental and social issues, highlighting key initiatives and progress.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Addressing Income Inequality: Government Policies and Social Equity",
         "design-brief": "Evaluate the role of government intervention in addressing income inequality, discussing policies such as progressive taxation, social welfare programs, and wealth redistribution.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       },
       {
         "industry": "Writing",
         "title": "Media Influence and Public Opinion: Navigating Information in the Digital Age",
         "design-brief": "Examine the impact of mass media on public opinion and political discourse, exploring the influence of media outlets, social media platforms, and fake news in shaping public perceptions.",
         "deliverable": null,
-        "deadline": null
+        "deadline": null,
+        "color": "#FF8E26"
       }
 ]
