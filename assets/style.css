@@ -16,19 +16,20 @@ body {
     background-color: var(--double-black);
     color: var(--white);
     background-size: 20px 20px;
+    z-index: -1;
     background-image:
       linear-gradient(to right, var(--dark-grey) 1px, transparent 1px),
       linear-gradient(to bottom, var(--dark-grey) 1px, transparent 1px);
       
   }
+  
   /* .black-gradient {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, rgb(248, 0, 0), transparent);
-    z-index: -1; 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
   } */
 
   nav {
@@ -64,10 +65,8 @@ body {
   /* DESIGN BRIEF SECTION CSS  */
 
 .prompt-display .background {
-    /* Your background styles here */
     padding: 20px;
     height: 70vh;
-    z-index: -2;
   }
 
 .design-brief { 

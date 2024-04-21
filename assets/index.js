@@ -15,7 +15,7 @@ const generatePrompt = () => {
 
   promptDisplay.innerHTML = 
     `
-      <div class="background" style="background-color: ${randomPrompt['background-color']}">
+      <div class="background" style="background: ${randomPrompt['background']}">
         <h3 class="design-brief">${randomPrompt['design-brief']}</h3>
         <p class="deliverable"> Deliverable: ${randomPrompt.deliverable}</p>
       </div>
@@ -27,7 +27,7 @@ const generatePrompt = () => {
 document.getElementById('generateBtn').addEventListener('click', generatePrompt);
 
 // Fetching JSON data and storing it in prompts array
-fetch('assests/data.json')
+fetch('assets/data.json')
   .then(response => response.json())
   .then(data => {
     prompts = data; // Store the fetched data in the prompts array
