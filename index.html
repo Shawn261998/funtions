@@ -9,23 +9,36 @@
     <link href="/assets/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav> 
-        <img src="/assets/Logo.svg" alt="Inception Point" class="logo">
-        <button class="nav">About</button>
-    </nav>
 
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <span id="closePopup" class="close-popup"><img src="assets/cross-button.svg" alt=""></span>
+            <div> 
+            <h2 class="popup-heading">Hello! Welcome to Inception of your new project</h2>
+            <img src="assets/popup-logo.svg">
+            <p class="popup-text">Get a unique Design Brief <br>Choose an industry, then just hit Generate</p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar"> 
+        <img src="/assets/Logo.svg" alt="Inception Point" class="logo">
+        <div class="nav-links">
+            <a href="index.html" class="nav">Briefs</a>
+            <a href="about.html" class="nav">About</a>
+        </div>
+    </nav>
 
     <section> 
         <div class="brief">
             <div id="promptDisplay" class="prompt-display"></div>
-            <div class="black-gradient"></div>
             <div class="CTA-buttons">
                 <select id="industryFilter">
                     <option value="all">All Industries</option>
                     <option value="Industrial Design">Industrial Design</option>
                     <option value="Graphic Design">Graphic Design</option>
                     <option value="Web Design">Web Design</option>
-                    <option value="App Design">App Design</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
                     <option value="Illustration">Illustration</option>
                     <option value="Writing">Writing</option>
                 </select>
@@ -33,6 +46,32 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        
+        <div class="footer-links">
+
+            <div class="column-1">
+                <p class="brand">Inception<br> Point</p>
+                <p class="copyright">© 2024 InceptionPoint. All rights reserved.</p>
+            </div>
+
+            <div class="column-2">
+                <div class="right-links">
+                    <p class="title">Design Briefs</p>
+                    <a href="" class="briefs-link">Industrial Design Briefs</a>
+                    <a href="" class="briefs-link">Graphic Design Briefs</a>
+                    <a href="" class="briefs-link">Web Design Briefs</a>
+                </div>
+                <div class="left-links">
+                    <a href="" class="briefs-link">UI/UX Design Briefs</a>
+                    <a href="" class="briefs-link">Illustration Briefs</a>
+                    <a href="" class="briefs-link">Writing Briefs</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 </html>

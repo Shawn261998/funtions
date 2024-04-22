@@ -1,3 +1,29 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const popupOverlay = document.getElementById('popupOverlay');
+  const closePopup = document.getElementById('closePopup');
+
+  // Show the popup when the page loads
+  popupOverlay.style.visibility = 'visible';
+
+  // Close the popup when the close button is clicked
+  closePopup.addEventListener('click', () => {
+      popupOverlay.style.visibility = 'hidden';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const popupOverlay = document.getElementById('popupOverlay');
+    const closePopup = document.getElementById('closePopup');
+
+    // Show the popup when the page loads
+    popupOverlay.classList.add('active');
+
+    // Close the popup when the close button is clicked
+    closePopup.addEventListener('click', () => {
+        popupOverlay.classList.remove('active');
+    });
+});
+
 const generatePrompt = () => {
   const industryFilter = document.getElementById('industryFilter').value;
   let filteredPrompts = [];
@@ -5,7 +31,7 @@ const generatePrompt = () => {
   if (industryFilter === 'all') {
     filteredPrompts = prompts; // Shows all the prompts
   } else {
-    filteredPrompts = prompts.filter(prompt => prompt.industry === industryFilter);
+    filteredPrompts = prompts.filter(prompt => prompt.industry === industryFilter); //industries in the filters
   }
 
   const randomIndex = Math.floor(Math.random() * filteredPrompts.length);

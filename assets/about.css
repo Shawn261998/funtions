@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    font-family: 'Plus Jakarta sans'; 
+    --typography-base: 15px;
+    --spacing: 10px;
+    --border-radius: 20px;
+
+    --white: #FFFFFF;
+  	--black:#181818;
+	  --double-black: #000000;
+    --dark-grey: #181818;
+    --buton-grey:#2A2A2A;
+    --footer : #A7A7A7;
+    
+}
+
+body {
+    background-color: var(--double-black);
+    color: var(--white);
+    background-size: 25px 25px;
+    z-index: -1;
+    background-image:
+      linear-gradient(to right, #101010 .5px, transparent 1px),
+      linear-gradient(to bottom,  #101010  .5px, transparent 1px);
+      
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--double-black);
+    padding: 10px 20px;
+    border-bottom: .5px solid var(--white);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .nav {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    padding: var(--spacing);
+    border-radius: calc(.5* var(--typography-base));
+    font-size: calc(1.5* var(--typography-base));
+    cursor: pointer;
+    margin-left: 20px; 
+  }
+  
+  .nav:hover {
+    background-color: var(--buton-grey);
+    cursor: pointer;
+  }
+
+h1 { 
+    font-size: calc(3* var(--typography-base));
+    font-weight: 500;
+}
+
+.section-1 { 
+    margin-left: calc(15* var(--spacing));
+    margin-top: calc(5* var(--spacing));
+    margin-right: calc(15* var(--spacing));
+}
+
+h2 { 
+    font-size: calc(4* var(--typography-base));
+    margin-top: calc(10* var(--spacing));
+    padding-right: calc(30* var(--spacing));
+    font-weight: 500;
+}
+
+h3 { 
+    font-size: calc(3* var(--typography-base));
+    margin-top: calc(5* var(--spacing));
+    padding-right: calc(30* var(--spacing));
+    margin-bottom: calc(10* var(--spacing));
+}
+
+p{ 
+    font-size: calc(1.5* var(--typography-base));
+    font-weight: 300;
+    margin-top: calc(5* var(--spacing));
+    padding-right: calc(20* var(--spacing));
+    padding-left: calc(20* var(--spacing));
+    line-height: 30px;
+}
+
+
+.footer {
+    background-color: var(--double-black);
+    color: var(--white);
+    padding: var(--spacing);
+    margin-top: calc(4* var(--spacing));
+  }
+  
+  .footer-links { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  
+  .brand {
+    font-size: calc(3* var(--typography-base));
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: calc(3* var(--spacing));
+  }
+  
+  .title {
+    font-size: calc(1.5* var(--typography-base));
+    font-weight: bold;
+    margin-bottom: calc(2* var(--spacing));
+    margin-left: calc(3* var(--spacing));
+  }
+  
+  .column-2 { 
+    margin-right: calc(10* var(--spacing));
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .briefs-link {
+    font-size: calc(.8* var(--typography-base));
+    margin-left: calc(3* var(--spacing));
+    margin-bottom: calc(1* var(--spacing));
+    display: block;
+    color: var(--footer);
+  }
+  
+  .footer-social svg {
+    margin-right: 5px;
+  }
+  
+  .left-links { 
+      margin-top: calc(5* var(--spacing));
+  }
+  
+  .copyright {
+    margin-top: calc(3* var(--spacing));
+    margin-bottom: calc(3* var(--spacing));
+    margin-left: calc(3* var(--spacing));
+    text-align: left;
+  }
+  
