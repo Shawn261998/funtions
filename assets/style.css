@@ -147,7 +147,8 @@ body {
 
 .prompt-display .background {
     padding: 20px;
-    height: 55vh;
+    height: 50vh;
+    margin-bottom: calc(5* var(--spacing));
   }
 
 .design-brief { 
@@ -227,6 +228,11 @@ button:hover {
 /* FOOTER CSS */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
   background-color: var(--double-black);
   color: var(--white);
   padding: var(--spacing);
@@ -268,10 +274,6 @@ footer {
   color: var(--footer);
 }
 
-.footer-social svg {
-  margin-right: 5px;
-}
-
 .left-links { 
     margin-top: calc(5* var(--spacing));
 }
@@ -283,38 +285,346 @@ footer {
   text-align: left;
 }
 
+@media only screen and (max-width: 1024px) {
 
-@media (max-width: 1024px) {
+.nav {
+  padding: var(--spacing);
+  border-radius: calc(.5* var(--typography-base));
+  font-size: calc(1.2* var(--typography-base));
+  cursor: pointer;
+  margin-left: 20px; 
+  }
 
-  .design-brief { 
-    font-size: calc(2.4* var(--typography-base));
-    margin-top: calc(1.7* var(--typography-base));
-    padding-top: calc(1.7* var(--typography-base));
-    padding-left: calc(1.7* var(--typography-base));
-    padding-right: calc(1.7* var(--typography-base));
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--double-black);
+  padding: 5px 10px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.prompt-display .background {
+    height: none;
+    padding: 20px;
+    margin-bottom: calc(2* var(--spacing));  
+ }
+
+.design-brief { 
+  font-size: calc(2* var(--typography-base));
+  margin-bottom: calc(2.5* var(--spacing));
+  padding-top: calc(3* var(--spacing));
+  padding-right: calc(10* var(--spacing));
+  padding-left: calc(10* var(--spacing));
 }
 
 .deliverable { 
-  text-align: center;
-  font-size: calc(1.7* var(--typography-base));
-  font-weight: 300;
-  margin-left: calc(10* var(--spacing));
-  margin-right: calc(10* var(--spacing));
+  font-size: calc(1.3* var(--typography-base));
+  margin-left: calc(15* var(--spacing));
+  margin-right: calc(15* var(--spacing));
 }
 
-.popup-heading { 
-  font-size: calc(2* var(--typography-base));
-  margin-right: calc(2* var(--typography-base));
-  margin-left: calc(2* var(--typography-base));
-  margin-bottom: calc(2* var(--typography-base));
+.CTA-buttons { 
+  margin-top: calc(1* var(--spacing));  
+  margin-bottom: calc(1* var(--spacing));  
 }
+
+
+ #industryFilter {
+  font-size: calc(1* var(--typography-base));
+  margin: calc(1* var(--spacing));
+  cursor: pointer;
+  color: var(--double-black);
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.generate {
+  font-size: calc(1* var(--typography-base));
+  padding: 10px 20px;
+  background-color: #007bff;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: calc(1* var(--spacing));
+}
+
+.brand {
+  font-size: calc(2* var(--typography-base));
+}
+
+.title {
+  font-size: calc(1.2* var(--typography-base));
+  font-weight: bold;
+  margin-bottom: calc(1* var(--spacing));
+  margin-left: calc(3* var(--spacing));
+}
+
+.briefs-link {
+  font-size: calc(.6* var(--typography-base));
+  margin-left: calc(3* var(--spacing));
+  margin-bottom: calc(.5* var(--spacing));
+}
+
+.left-links { 
+  margin-top: calc(3.5* var(--spacing));
+}
+
+.copyright {
+  font-size: calc(.7* var(--typography-base));
+  margin-top: calc(1* var(--spacing));
+  margin-bottom: calc(3* var(--spacing));
+  margin-left: calc(3* var(--spacing));
+  text-align: left;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .nav {
+    padding: var(--spacing);
+    border-radius: calc(.5* var(--typography-base));
+    font-size: calc(1.2* var(--typography-base));
+    cursor: pointer;
+    margin-left: 20px; 
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--double-black);
+    padding: 5px 10px;
+  }
+  
+  .logo{
+      width: 30%;
+  }
+  
+  .prompt-display .background {
+    padding: 20px;
+    margin-bottom: calc(2* var(--spacing));  
+   }
+  
+  .design-brief { 
+    font-size: calc(1.6* var(--typography-base));
+    margin-bottom: calc(2.5* var(--spacing));
+    padding-top: calc(3* var(--spacing));
+    padding-right: calc(1* var(--spacing));
+    padding-left: calc(1* var(--spacing));
+  }
+  
+  .deliverable { 
+    font-size: calc(1.3* var(--typography-base));
+    margin-left: calc(5* var(--spacing));
+    margin-right: calc(5* var(--spacing));
+  }
+  
+  .CTA-buttons { 
+    margin-top: calc(1* var(--spacing));  
+    margin-bottom: calc(1* var(--spacing));  
+  }
+  
+  
+   #industryFilter {
+    font-size: calc(1* var(--typography-base));
+    margin: calc(1* var(--spacing));
+    cursor: pointer;
+    color: var(--double-black);
+    background-color: var(--white);
+    border-radius: 10px;
+  }
+  
+  .generate {
+    font-size: calc(1* var(--typography-base));
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: calc(1* var(--spacing));
+  }
+  
+  .brand {
+    font-size: calc(2* var(--typography-base));
+  }
+  
+  .title {
+    font-size: calc(1.2* var(--typography-base));
+    font-weight: bold;
+    margin-bottom: calc(1* var(--spacing));
+    margin-left: calc(3* var(--spacing));
+  }
+  
+  .briefs-link {
+    font-size: calc(.6* var(--typography-base));
+    margin-left: calc(3* var(--spacing));
+    margin-bottom: calc(.5* var(--spacing));
+  }
+  
+  .left-links { 
+    margin-top: calc(3.5* var(--spacing));
+  }
+  
+  .copyright {
+    font-size: calc(.7* var(--typography-base));
+    margin-top: calc(1* var(--spacing));
+    margin-bottom: calc(3* var(--spacing));
+    margin-left: calc(3* var(--spacing));
+    text-align: left;
+  }
+  
+  
+  }
+
+  @media only screen and (max-width: 425px) {
+
+    .nav {
+      padding: var(--spacing);
+      border-radius: calc(.5* var(--typography-base));
+      font-size: calc(1* var(--typography-base));
+      cursor: pointer;
+      margin-left: 20px; 
+      }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--double-black);
+      padding: 5px 10px;
+    }
+    
+    .logo{
+        width: 35%;
+    }
+    
+    .prompt-display .background {
+      padding: 20px;
+      /* height: 33vh; */
+      margin-bottom: calc(.2* var(--spacing));  
+      padding-bottom: 0px;
+     }
+    
+    .design-brief { 
+      font-size: calc(1.3* var(--typography-base));
+      margin-bottom: calc(2* var(--spacing));
+      padding-top: calc(1* var(--spacing));
+      padding-right: calc(1* var(--spacing));
+      padding-left: calc(1* var(--spacing));
+    }
+    
+    .deliverable { 
+      font-size: calc(1* var(--typography-base));
+      margin-left: calc(5* var(--spacing));
+      margin-right: calc(5* var(--spacing));
+    }
+    
+    .CTA-buttons { 
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: calc(1* var(--spacing));  
+      margin-bottom: calc(1* var(--spacing));  
+      padding-left: calc(4* var(--spacing));  
+      padding-right: calc(4* var(--spacing));  
+    }
+    
+    
+     #industryFilter {
+      font-size: calc(1* var(--typography-base));
+      margin: calc(1* var(--spacing));
+      cursor: pointer;
+      color: var(--double-black);
+      background-color: var(--white);
+      border-radius: 10px;
+    }
+    
+    .generate {
+      font-size: calc(1* var(--typography-base));
+      padding: 10px 20px;
+      background-color: #007bff;
+      font-weight: 400;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: calc(1* var(--spacing));
+    }
+    
+    .brand {
+      font-size: calc(2* var(--typography-base));
+    }
+    
+    .title {
+      font-size: calc(1.2* var(--typography-base));
+      font-weight: bold;
+      margin-bottom: calc(1* var(--spacing));
+      margin-left: calc(3* var(--spacing));
+    }
+    
+    .briefs-link {
+      font-size: calc(.6* var(--typography-base));
+      margin-left: calc(3* var(--spacing));
+      margin-bottom: calc(.5* var(--spacing));
+    }
+    
+    .left-links { 
+      margin-top: calc(3.5* var(--spacing));
+    }
+    
+    .copyright {
+      font-size: calc(.7* var(--typography-base));
+      margin-top: calc(1* var(--spacing));
+      margin-bottom: calc(3* var(--spacing));
+      margin-left: calc(3* var(--spacing));
+      text-align: left;
+    }
+
+    .popup-content {
+      align-items: end;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--dark-grey);
+      padding: 6px;
+      border-radius: calc(1* var(--border-radius));
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    
+    
+    .popup-heading { 
+      color: var(--white);
+      font-size: calc(1.6* var(--typography-base));
+      margin-right: calc(0* var(--typography-base));
+      margin-left: calc(0* var(--typography-base));
+      margin-bottom: calc(2* var(--typography-base));
+    }
+
+#closePopup {
+  width: 12%;
+  padding: var(--spacing);
+}
+
 .popup-text { 
-  font-size: calc(1.3* var(--typography-base));
-  margin-right: calc(1* var(--typography-base));
-  margin-left: calc(1* var(--typography-base));
+  color: var(--white);
+  font-size: calc(1.2* var(--typography-base));
+  margin-right: calc(0* var(--typography-base));
+  margin-left: calc(0* var(--typography-base));
   margin-top: calc(2* var(--typography-base));
   margin-bottom: calc(2* var(--typography-base));
   
 }
 
-}
+    }
+  
+  
+  
+

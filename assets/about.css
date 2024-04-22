@@ -12,7 +12,6 @@
     --dark-grey: #181818;
     --buton-grey:#2A2A2A;
     --footer : #A7A7A7;
-    
 }
 
 body {
@@ -148,3 +147,60 @@ p{
     text-align: left;
   }
   
+  .popup-heading { 
+    color: var(--white);
+    font-size: calc(3* var(--typography-base));
+    margin-right: calc(2* var(--typography-base));
+    margin-left: calc(2* var(--typography-base));
+    margin-bottom: calc(2* var(--typography-base));
+  }
+  .popup-text { 
+    color: var(--white);
+    font-size: calc(1.7* var(--typography-base));
+    margin-right: calc(1* var(--typography-base));
+    margin-left: calc(1* var(--typography-base));
+    margin-top: calc(2* var(--typography-base));
+    margin-bottom: calc(2* var(--typography-base));
+    
+  }
+  
+
+  @media only screen and (max-width: 1024px) {
+
+    .section-1 h1{ 
+    font-size: calc(2.5* var(--typography-base));
+    margin-top: calc(5* var(--spacing));
+    padding-right: calc(15* var(--spacing));
+    }
+
+    .section-1 h2{ 
+    font-size: calc(2.5* var(--typography-base));
+    margin-top: calc(5* var(--spacing));
+    padding-right: calc(15* var(--spacing));
+    }
+
+    h3 { 
+    font-size: calc(2.3* var(--typography-base));
+    margin-top: calc(5* var(--spacing));
+    padding-right: calc(0* var(--spacing));
+    margin-bottom: calc(10* var(--spacing));
+}
+
+.section-1 p{ 
+    font-size: calc(1* var(--typography-base));
+    padding-right: calc(10* var(--spacing));
+    padding-left: calc(10* var(--spacing));
+}
+} 
+
+
+  @media only screen and (max-width: 425px) {
+
+    p{ 
+        font-size: calc(1.5* var(--typography-base));
+        padding-right: calc(0* var(--spacing));
+        padding-left: calc(0* var(--spacing));
+    }
+  } 
+
+
