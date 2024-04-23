@@ -1,11 +1,14 @@
+  // On borading pop-up
+  // On borading pop-up
+  // On borading pop-up
+  // On borading pop-up
+
 document.addEventListener('DOMContentLoaded', () => {
   const popupOverlay = document.getElementById('popupOverlay');
   const closePopup = document.getElementById('closePopup');
 
-  // Show the popup when the page loads
   popupOverlay.style.visibility = 'visible';
 
-  // Close the popup when the close button is clicked
   closePopup.addEventListener('click', () => {
       popupOverlay.style.visibility = 'hidden';
   });
@@ -15,14 +18,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const popupOverlay = document.getElementById('popupOverlay');
     const closePopup = document.getElementById('closePopup');
 
-    // Show the popup when the page loads
     popupOverlay.classList.add('active');
 
-    // Close the popup when the close button is clicked
     closePopup.addEventListener('click', () => {
         popupOverlay.classList.remove('active');
     });
 });
+
+  // filter for the industry
+  // filter for the industry
+  // filter for the industry
+  // filter for the industry
 
 const generatePrompt = () => {
   const industryFilter = document.getElementById('industryFilter').value;
@@ -33,6 +39,11 @@ const generatePrompt = () => {
   } else {
     filteredPrompts = prompts.filter(prompt => prompt.industry === industryFilter); //industries in the filters
   }
+
+// randomizing the design briefs 
+// randomizing the design briefs 
+// randomizing the design briefs 
+// randomizing the design briefs 
 
   const randomIndex = Math.floor(Math.random() * filteredPrompts.length);
   const randomPrompt = filteredPrompts[randomIndex];
@@ -49,17 +60,27 @@ const generatePrompt = () => {
   ;
 };
 
-// Generate prompt button.
+// Generate button  
+// Generate button  
+// Generate button  
+// Generate button  
+
 document.getElementById('generateBtn').addEventListener('click', generatePrompt);
 
 // Fetching JSON data and storing it in prompts array
+// Fetching JSON data and storing it in prompts array
+// Fetching JSON data and storing it in prompts array
+
 fetch('assets/data.json')
   .then(response => response.json())
   .then(data => {
     prompts = data; 
     generatePrompt(); 
   })
-  .catch(error => console.error('Error fetching data:', error));
 
+// Generate prompt when the page load
 // Generate prompt when the page loads
+// Generate prompt when the page loads
+// Generate prompt when the page loads
+
 window.onload = generatePrompt;

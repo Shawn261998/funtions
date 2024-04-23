@@ -228,7 +228,7 @@ button:hover {
 /* FOOTER CSS */
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -405,7 +405,7 @@ nav {
   }
   
   .logo{
-      width: 30%;
+      width: 40%;
   }
   
   .prompt-display .background {
@@ -479,9 +479,24 @@ nav {
     margin-left: calc(3* var(--spacing));
     text-align: left;
   }
-  
-  
+
+  .popup-heading { 
+    color: var(--white);
+    font-size: calc(1.5* var(--typography-base));
+    margin-right: calc(0* var(--typography-base));
+    margin-left: calc(0* var(--typography-base));
+    margin-bottom: calc(2* var(--typography-base));
   }
+
+  .popup-text { 
+    font-size: calc(1.2* var(--typography-base));
+  }
+
+  #closePopup {
+    width: 15%;
+  }
+
+}
 
   @media only screen and (max-width: 425px) {
 
@@ -499,21 +514,24 @@ nav {
       align-items: center;
       background-color: var(--double-black);
       padding: 5px 10px;
+      display: flex;
+      align-items: center;
     }
     
     .logo{
-        width: 35%;
+        width: 50%;
     }
     
     .prompt-display .background {
       padding: 20px;
-      /* height: 33vh; */
+      height: 40vh;
       margin-bottom: calc(.2* var(--spacing));  
       padding-bottom: 0px;
      }
     
     .design-brief { 
       font-size: calc(1.3* var(--typography-base));
+      margin-top: calc(4* var(--spacing));
       margin-bottom: calc(2* var(--spacing));
       padding-top: calc(1* var(--spacing));
       padding-right: calc(1* var(--spacing));
@@ -558,6 +576,31 @@ nav {
       margin: calc(1* var(--spacing));
     }
     
+
+.footer-links{ 
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
+  background-color: var(--double-black);
+  color: var(--white);
+  padding: var(--spacing);
+  margin-top: calc(4* var(--spacing));
+}
+
+    .column-2 { 
+      margin-top: calc(0* var(--spacing));
+      margin-right: calc(2* var(--spacing));
+      display: flex;
+      flex-direction: row;
+    }
+
     .brand {
       font-size: calc(2* var(--typography-base));
     }
