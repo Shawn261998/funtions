@@ -56,8 +56,8 @@ document.getElementById('generateBtn').addEventListener('click', generatePrompt)
 fetch('assets/data.json')
   .then(response => response.json())
   .then(data => {
-    prompts = data; // Store the fetched data in the prompts array
-    generatePrompt(); // Call generatePrompt function to display a random prompt
+    prompts = data; 
+    generatePrompt(); 
   })
   .catch(error => console.error('Error fetching data:', error));
 
