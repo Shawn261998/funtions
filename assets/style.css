@@ -304,7 +304,7 @@ nav {
 }
 
 .logo{
-    width: 30%;
+    width: 90%;
 }
 
 .prompt-display .background {
@@ -405,7 +405,7 @@ nav {
   }
   
   .logo{
-      width: 40%;
+      width: 60%;
   }
   
   .prompt-display .background {
@@ -425,6 +425,7 @@ nav {
     font-size: calc(1.3* var(--typography-base));
     margin-left: calc(5* var(--spacing));
     margin-right: calc(5* var(--spacing));
+  
   }
   
   .CTA-buttons { 
@@ -524,14 +525,14 @@ nav {
     
     .prompt-display .background {
       padding: 20px;
-      height: 40vh;
+      height: 45vh;
       margin-bottom: calc(.2* var(--spacing));  
       padding-bottom: 0px;
      }
     
     .design-brief { 
       font-size: calc(1.3* var(--typography-base));
-      margin-top: calc(4* var(--spacing));
+      margin-top: calc(2.5* var(--spacing));
       margin-bottom: calc(2* var(--spacing));
       padding-top: calc(1* var(--spacing));
       padding-right: calc(1* var(--spacing));
