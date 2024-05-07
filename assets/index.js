@@ -35,9 +35,9 @@ const generatePrompt = () => {
   let filteredPrompts = [];
 
   if (industryFilter === 'all') {
-    filteredPrompts = prompts; // Shows all the prompts
+    filteredPrompts = prompts; 
   } else {
-    filteredPrompts = prompts.filter(prompt => prompt.industry === industryFilter); //industries in the filters
+    filteredPrompts = prompts.filter(prompt => prompt.industry === industryFilter); 
   }
 
 // randomizing the design briefs 
